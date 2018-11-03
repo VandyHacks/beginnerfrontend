@@ -1,0 +1,45 @@
+* { /*Universal Selector*/
+    margin: 0;
+    padding: 0;
+}
+
+body { /*Element Type Selector*/
+   text-align: center; 
+   font-family: sans-serif;
+}
+
+#title { /*Id Selector*/
+    color: paleturquoise;
+    transition: all 2s;
+
+}
+
+#title:hover {
+    color: red;
+    font-size: 100px;
+}
+.main { /*Class Selector*/
+    background: lightcoral;
+}
+
+.questionCard {
+    margin: 10px;
+    background: lightblue;
+}
+
+.questionBody {
+    margin: 10px;
+    background: lightgreen;
+    height: 50px;
+}
+
+.options {
+    margin: 5px;
+    background: pink;
+    display: inline-block;
+}
+
+#submit {
+    height: 100px;
+    width: 200px
+}
